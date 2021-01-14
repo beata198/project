@@ -125,7 +125,8 @@ Projekt jest: _inProgress_
 
 
 ## Inspiracja
-Ta aplikacja powstała na podstawie zajęć na uczelni z dr Dariuszem Kralewskim.
+Ta aplikacja powstała na podstawie zajęć na uczelni \
+z dr Dariuszem Kralewskim.
 
 ## Kontakt
 Beata Lublewska \
