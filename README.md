@@ -7,8 +7,8 @@
 * [Instalacja](#instalacja)
 * [Baza](#baza)
 * [Zabezpieczenia](#zabezpieczenia)
-* [Pomocne strony](#pomocne strony)
-* [Status projektu](#status projektu)
+* [Pomocne_strony](#pomocne_strony)
+* [Status_projektu](#status_projektu)
 * [Inspiracja](#inspiracja)
 * [Kontakt](#kontakt)
 
@@ -102,14 +102,14 @@ file.mimetype == "image/jpeg" || file.mimetype == "image/png"
 limits: { fileSize: 1024 * 1024 * 5 }
 ```
 
-## Pomocne strony
+## Pomocne_strony
 
 ```
 https://jwt.io/
 https://www.npmjs.com/
 ```
 
-## Status projektu
+## Status_projektu
 Projekt jest: _finished_
 
 
