@@ -1,24 +1,23 @@
 # API - sklep 
 > API zrobione w JS z Node.js i MongoDB
 
-## Table of contents
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+## Spis treści
+* [Info](#info)
+* [Technologie](#technologie)
+* [Instalacja](#instalacja)
+* [Zabezpieczenia](#zabezpieczenia)
+* [Schemat bazy](#schemat_bazy)
+* [Status projektu](#status)
+* [Pomocne strony](#pomocne_strony)
+* [Inspiracja](#inspiracja)
+* [Kontakt](#kontakt)
 
-## General info
+## Info
 Projekt powstał w ramach zajęć na uczelni. 
 Jest to API napisane w JS, zawierający bazę danych, routing, zabezpieczenia.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png) do zmiany!!!
 
-## Technologies
+## Technologie
 
 * Mongodb - version 3.6.3
 * Node.js - version 14.14.20
@@ -31,8 +30,8 @@ Jest to API napisane w JS, zawierający bazę danych, routing, zabezpieczenia.
 * Morgan - version 1.10.0
 * Multer - version 1.42
 
-## Setup
-To run this project, install it locally using npm:
+## Instalacja
+By uruchomić projekt użyj:
 
 ```
  cd sklep
@@ -40,26 +39,84 @@ To run this project, install it locally using npm:
  npm start
 ```
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+## Baza
+```
+-> sklep 
+     - products
+        name type string
+        price type number
+        prodImage type file
+     - users
+        email type string
+        password type string
+```
 
-## Features
-List of features ready and TODOs for future development
-* logowanie użytkownika przy pomocy tokenu
-* Awesome feature 2
-* Awesome feature 3
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+http://localhost:3000/products - wyświetlenie zawartości bazy danych
 
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Logowanie użytkownika + otrzymanie tokenu (np Postman)
 
-## Inspiration
+localhost:3000/users/login
+```
+{
+    "email":"admin@admin.pl",
+    "password":"admin"
+}
+```
+
+
+Rejestracja użytkownika 
+localhost:3000/users/signup
+```
+{
+    "email":"...",
+    "password":"..."
+}
+```
+
+Dodawanie produktów do bazy
+localhost:3000/products
+```
+{
+    "name":"...",
+    "price":"...",
+    "prodImage":"..." /type file
+} 
+```
+
+Usuwanie produktu po id
+localhost:3000/products/`id`
+
+
+## Zabezpieczenia
+* JSONWEBTOKEN - autoryzacja
+* Bcrypt - zahaszowanie hasła
+* Wymaganie do złożoności email'a
+```
+match: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+oraz unique: true
+```
+* Ustawienie limitu do dodawanych zdjęć do bazy
+```
+file.mimetype == "image/jpeg" || file.mimetype == "image/png"
+limits: { fileSize: 1024 * 1024 * 5 }
+```
+
+
+
+## Status projektu
+Projekt jest: _finished_
+
+## Pomocne strony
+
+```
+https://jwt.io/
+https://www.npmjs.com/
+```
+
+## Inspiracja
 Ta aplikacja powstała na podstawie zajęć na uczelni z dr Dariuszem Kralewskim.
 
-## Contact
+## Kontakt
 Beata Lublewska
 b.lublewska@gmail.com
