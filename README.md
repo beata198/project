@@ -5,10 +5,10 @@
 * [Info](#info)
 * [Technologie](#technologie)
 * [Instalacja](#instalacja)
+* [Baza](#baza)
 * [Zabezpieczenia](#zabezpieczenia)
-* [Schemat bazy](#schemat_bazy)
-* [Status projektu](#status)
 * [Pomocne strony](#pomocne_strony)
+* [Status projektu](#status)
 * [Inspiracja](#inspiracja)
 * [Kontakt](#kontakt)
 
@@ -102,11 +102,6 @@ file.mimetype == "image/jpeg" || file.mimetype == "image/png"
 limits: { fileSize: 1024 * 1024 * 5 }
 ```
 
-
-
-## Status projektu
-Projekt jest: _finished_
-
 ## Pomocne strony
 
 ```
@@ -114,9 +109,13 @@ https://jwt.io/
 https://www.npmjs.com/
 ```
 
+## Status projektu
+Projekt jest: _finished_
+
+
 ## Inspiracja
 Ta aplikacja powstała na podstawie zajęć na uczelni z dr Dariuszem Kralewskim.
 
 ## Kontakt
-Beata Lublewska
+Beata Lublewska \
 b.lublewska@gmail.com
