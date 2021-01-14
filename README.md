@@ -53,11 +53,11 @@ By uruchomić projekt użyj:
 ```
 
 
-http://localhost:3000/products - wyświetlenie zawartości bazy danych
+`http://localhost:3000/products` - wyświetlenie zawartości bazy danych
 
 Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman)
 
-localhost:3000/users/login
+`localhost:3000/users/login`
 ```
 {
     "email":"admin@admin.pl",
@@ -67,7 +67,7 @@ localhost:3000/users/login
 
 
 Rejestracja użytkownika 
-localhost:3000/users/signup
+`localhost:3000/users/signup`
 ```
 {
     "email":"...",
@@ -76,7 +76,7 @@ localhost:3000/users/signup
 ```
 
 Dodawanie produktów do bazy
-localhost:3000/products
+`localhost:3000/products`
 ```
 {
     "name":"...",
@@ -86,7 +86,7 @@ localhost:3000/products
 ```
 
 Usuwanie produktu po id
-localhost:3000/products/`id`
+`localhost:3000/products/$id`
 
 
 ## Zabezpieczenia
@@ -119,4 +119,4 @@ Ta aplikacja powstała na podstawie zajęć na uczelni z dr Dariuszem Kralewskim
 
 ## Kontakt
 Beata Lublewska \
-b.lublewska@gmail.com
+:fax: b.lublewska@gmail.com
