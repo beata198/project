@@ -7,8 +7,8 @@
 * [Instalacja](#instalacja)
 * [Baza](#baza)
 * [Zabezpieczenia](#zabezpieczenia)
-* [Pomocne strony](#pomocne_strony)
-* [Status projektu](#status)
+* [Pomocne strony](#pomocne strony)
+* [Status projektu](#status projektu)
 * [Inspiracja](#inspiracja)
 * [Kontakt](#kontakt)
 
