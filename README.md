@@ -36,7 +36,6 @@ By uruchomić projekt użyj:
 
 ```
  cd sklep
- npm install
  npm start
 ```
 
