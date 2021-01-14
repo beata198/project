@@ -51,10 +51,10 @@ By uruchomić projekt użyj:
         password type string
 ```
 
-Wyświetlenie zawartości bazy danych \
+**Wyświetlenie zawartości bazy danych** \
 `http://localhost:3000/products`
 
-Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman) \
+**Logowanie użytkownika** + otrzymanie tokenu (np z użyciem Postman) \
 `localhost:3000/users/login` 
 ```
 {
@@ -64,7 +64,7 @@ Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman) \
 ```
 
 \
-Rejestracja użytkownika \
+**Rejestracja użytkownika** \
 `localhost:3000/users/signup`
 
 ```
@@ -74,7 +74,7 @@ Rejestracja użytkownika \
 }
 ```
 \
-Dodawanie produktów do bazy \
+**Dodawanie produktów do bazy** \
 `localhost:3000/products`
 ```
 {
@@ -84,7 +84,7 @@ Dodawanie produktów do bazy \
 } 
 ```
 \
-Usuwanie produktu po id \
+**Usuwanie produktu po id** \
 `localhost:3000/products/$id`
 
 
