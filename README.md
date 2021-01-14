@@ -105,10 +105,10 @@ limits: { fileSize: 1024 * 1024 * 5 }
 
 ## Pomocne_strony
 
-```
-https://jwt.io/
-https://www.npmjs.com/
-```
+
+* https://jwt.io/
+* https://www.npmjs.com/
+
 
 ## Status_projektu
 Projekt jest: _inProgress_
