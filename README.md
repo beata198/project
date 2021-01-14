@@ -1,4 +1,4 @@
-# API - sklep 
+# API - sklep longboardowy
 > API zrobione w JS z Node.js i MongoDB
 
 ## Spis treści
