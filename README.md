@@ -91,6 +91,13 @@ By uruchomić projekt użyj:
 **Usuwanie użytkownika po id** - metoda DELETE \
 `localhost:3000/users/$id`
 
+**Zmiana danych produktu po id** - metoda PATCH \
+`localhost:3000/products/$id`
+
+\
+**Wyświetlanie szczegółów produktu po id** - metoda GET \
+`localhost:3000/products/$id`
+
 
 ## Zabezpieczenia
 * JSONWEBTOKEN - autoryzacja
