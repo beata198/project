@@ -51,10 +51,10 @@ By uruchomić projekt użyj:
         password type string
 ```
 
-**Wyświetlenie zawartości bazy danych** \
+**Wyświetlenie zawartości bazy danych** - metoda GET \
 `http://localhost:3000/products`
 
-**Logowanie użytkownika** + otrzymanie tokenu (np z użyciem Postman) \
+**Logowanie użytkownika** + otrzymanie tokenu (np z użyciem Postman) - metoda POST \
 `localhost:3000/users/login` 
 ```
 {
@@ -64,7 +64,7 @@ By uruchomić projekt użyj:
 ```
 
 \
-**Rejestracja użytkownika** \
+**Rejestracja użytkownika** - metoda POST \
 `localhost:3000/users/signup`
 
 ```
@@ -74,7 +74,7 @@ By uruchomić projekt użyj:
 }
 ```
 \
-**Dodawanie produktów do bazy** \
+**Dodawanie produktów do bazy** - metoda POST \
 `localhost:3000/products`
 ```
 {
@@ -84,8 +84,12 @@ By uruchomić projekt użyj:
 } 
 ```
 \
-**Usuwanie produktu po id** \
+**Usuwanie produktu po id** - metoda DELETE \
 `localhost:3000/products/$id`
+
+\
+**Usuwanie użytkownika po id** - metoda DELETE \
+`localhost:3000/users/$id`
 
 
 ## Zabezpieczenia
