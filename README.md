@@ -51,12 +51,11 @@ By uruchomić projekt użyj:
         password type string
 ```
 
+Wyświetlenie zawartości bazy danych \
+`http://localhost:3000/products`
 
-`http://localhost:3000/products` - wyświetlenie zawartości bazy danych
-
-Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman)
-
-`localhost:3000/users/login`
+Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman) \
+`localhost:3000/users/login` 
 ```
 {
     "email":"admin@admin.pl",
@@ -64,17 +63,18 @@ Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman)
 }
 ```
 
-
-Rejestracja użytkownika 
+\
+Rejestracja użytkownika \
 `localhost:3000/users/signup`
+
 ```
 {
     "email":"...",
     "password":"..."
 }
 ```
-
-Dodawanie produktów do bazy
+\
+Dodawanie produktów do bazy \
 `localhost:3000/products`
 ```
 {
@@ -83,8 +83,8 @@ Dodawanie produktów do bazy
     "prodImage":"..." /type file
 } 
 ```
-
-Usuwanie produktu po id
+\
+Usuwanie produktu po id \
 `localhost:3000/products/$id`
 
 
