@@ -118,4 +118,4 @@ Ta aplikacja powstała na podstawie zajęć na uczelni z dr Dariuszem Kralewskim
 
 ## Kontakt
 Beata Lublewska \
-:fax: b.lublewska@gmail.com
+:mailbox: b.lublewska@gmail.com
