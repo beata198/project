@@ -29,6 +29,7 @@ Jest to API napisane w JS, zawierający bazę danych, routing, zabezpieczenia.
 * Nodemon - version 2.06
 * Morgan - version 1.10.0
 * Multer - version 1.42
+* Postman - version 7.36.1
 
 ## Instalacja
 By uruchomić projekt użyj:
@@ -54,7 +55,7 @@ By uruchomić projekt użyj:
 
 http://localhost:3000/products - wyświetlenie zawartości bazy danych
 
-Logowanie użytkownika + otrzymanie tokenu (np Postman)
+Logowanie użytkownika + otrzymanie tokenu (np z użyciem Postman)
 
 localhost:3000/users/login
 ```
@@ -110,7 +111,7 @@ https://www.npmjs.com/
 ```
 
 ## Status_projektu
-Projekt jest: _finished_
+Projekt jest: _inProgress_
 
 
 ## Inspiracja
